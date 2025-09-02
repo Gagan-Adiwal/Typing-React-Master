@@ -1,14 +1,12 @@
-# Typing Master Pro (React + Node.js)
+# React + Vite
 
-Typing Master Pro is a modern web-based typing practice and speed test application.  
-It is built with **React (frontend)** and **Node.js + Express (backend)**.  
-The project includes pages like Home, Privacy Policy, Terms & Conditions, and Contact (with email sender integration).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
-- 🎯 Typing speed test with accuracy tracking
-- 🏠 Home page with simple UI
-- 📄 Privacy Policy & Terms pages
-- 📩 Contact form with **Node.js backend** email sender
-- ⚡ Built with React, Tailwind CSS, Express, and Nodemailer
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
